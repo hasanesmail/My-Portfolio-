@@ -704,8 +704,14 @@ hr {
 
 /* 3. للهواتف الصغيرة (Mobile Phones) */
 @media (max-width: 480px) {
-    body {
-        margin-top: 200px; /* زيادة الحشو لأن الهيدر في الجوال غالباً ما يكون أطول */
+    .real-site {
+        margin-top: 200px; 
+    }
+    .intro{
+        margin-top: 20px;
+    }
+    .main{
+        margin-top: 40px;
     }
     .div-list{
         margin-top: 80px;
@@ -1037,6 +1043,7 @@ hr {
 
 /* TAGS */
 .project-card .skills a {
+    text-decoration: none;
     display: inline-block;
     margin: 4px 6px 0 0;
     padding: 6px 12px;
@@ -1427,7 +1434,10 @@ hr {
   justify-content: center;
   align-items: center;
 }
-
+#contact .section-title {
+    text-align: center;
+    margin-bottom: 80px;
+}
 /* CONTAINER */
 .contact-content {
   width: 100%;
@@ -1456,11 +1466,6 @@ hr {
   gap: 15px;
   margin-bottom: 20px;
   color: #d0d0d0;
-}
-
-.contact-item svg {
-  color: #ff4d6d;
-  filter: drop-shadow(0 0 6px rgba(255, 80, 120, 0.6));
 }
 
 /* SOCIAL */
@@ -1703,7 +1708,9 @@ hr {
     #contact {
         padding: 60px 0;
     }
-
+    #contact .section-title{
+        margin-bottom: 30px;
+    }
     .section-title {
         font-size: 2rem; /* تصغير العنوان قليلاً ليناسب الشاشة */
         margin-bottom: 40px;
